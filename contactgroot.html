@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Groter HTML formulier</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1> Mijn eerste grote contactformulier</h1>
+    </header>
+    <form class="formulier" name="contact" method="POST" data-netlify="true">
+        <p>
+            <label>Naam: <input type="text" name="name" /></label>
+        </p>
+        <p>
+            <label>E-mailadres: <input type="email" name="email" /></label>
+        </p>
+        <p>
+            <label>Telnr: <input type="tel" name="tel" /></label>
+        </p>
+        <p>
+            <label>Leeftijd: <input type="number" name="age" min="1" max="100" /></label>
+        </p>
+        <p>
+            <label>Geboortedatum: <input type="date" name="birthday" /></label>
+        </p>
+        <p>
+            <label>Gender:</label>
+            <label>Vrouw <input type="radio" name="gender" value="Female" /></label>
+            <label>Man <input type="radio" name="gender" value="Man" /></label>
+        </p>
+        <p>
+            <label>Favoriete cuisine:</label>
+            <label>Frans <input type="checkbox" name="french" /></label>
+            <label>Italiaans <input type="checkbox" name="italian" /></label>
+            <label>Spaans <input type="checkbox" name="spanish" /></label>
+            <label>Arabisch <input type="checkbox" name="arabic" /></label>
+        </p>
+        <p>
+            <label>Favoriete kleur van short: <input type="color" /></label>
+        </p>
+        <p>
+            <label>Biografie:<br>
+                <textarea class="biografie" rows="10" name="Biography"></textarea></label>
+        </p>
+        <p>
+            <label>Upload je laatste recept: <input type="file" name="recipe" /></label>
+        </p>
+        <p>
+            <label>URL van jouw recepten website: <input type="url" name="url" /></label>
+        </p>
+        <p>
+            <input type="reset" name="reset" />
+        </p>
+        <p>
+            <button type="submit">Send</button>
+        </p>
+    </form>
+    <footer>
+        <nav>
+            <ul class="links">
+                <li><a href="index.html">
+                        <p1>Terug naar homepage</p1>
+                    </a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
